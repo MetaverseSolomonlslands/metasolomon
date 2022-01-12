@@ -1,0 +1,1663 @@
+(function (cjs, an) {
+
+var p; // shortcut to reference prototypes
+var lib={};var ss={};var img={};
+lib.ssMetadata = [
+		{name:"ecosystem_atlas_1", frames: [[553,1318,58,58],[291,1931,24,24],[34,2021,21,20],[231,1991,32,32],[0,1996,32,32],[231,1931,58,58],[0,1635,317,294],[319,1635,465,177],[0,1398,617,235],[319,1814,151,154],[0,1008,551,388],[0,0,581,1006],[553,1008,421,308],[619,1318,271,239],[0,1931,229,63],[29,2038,3,3],[613,1342,3,3],[34,1996,23,23],[613,1347,3,3],[22,2030,6,6],[613,1318,4,4],[22,2038,5,5],[0,2030,9,9],[291,1957,24,24],[613,1324,4,4],[613,1330,4,4],[613,1336,4,4],[11,2030,9,9],[0,2041,5,5],[7,2041,5,5],[14,2041,5,5],[472,1814,151,154],[625,1814,151,154]]}
+];
+
+
+(lib.AnMovieClip = function(){
+	this.actionFrames = [];
+	this.ignorePause = false;
+	this.gotoAndPlay = function(positionOrLabel){
+		cjs.MovieClip.prototype.gotoAndPlay.call(this,positionOrLabel);
+	}
+	this.play = function(){
+		cjs.MovieClip.prototype.play.call(this);
+	}
+	this.gotoAndStop = function(positionOrLabel){
+		cjs.MovieClip.prototype.gotoAndStop.call(this,positionOrLabel);
+	}
+	this.stop = function(){
+		cjs.MovieClip.prototype.stop.call(this);
+	}
+}).prototype = p = new cjs.MovieClip();
+// symbols:
+
+
+
+(lib.ball1 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ball2 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ball3 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ball4 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ball5 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ball6 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.center_ball = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.cricle1 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.cricle2 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.rhombus = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.图层10 = function() {
+	this.initialize(img.图层10);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3155,2003);
+
+
+(lib.图层11 = function() {
+	this.initialize(img.图层11);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3093,1315);
+
+
+(lib.椭圆1 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆1拷贝 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆1拷贝10 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆1拷贝11 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆1拷贝2 = function() {
+	this.initialize(img.椭圆1拷贝2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,3155,2003);
+
+
+(lib.椭圆1拷贝4 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆10 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆11 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆12 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆13 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆14 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆15 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆16 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(21);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆2 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(22);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆2拷贝4 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(23);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆3 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(24);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆4 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆5 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(26);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆6 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(27);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆7 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(28);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆8 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(29);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.椭圆9 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(30);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.组8拷贝2 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(31);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.组8拷贝3 = function() {
+	this.initialize(ss["ecosystem_atlas_1"]);
+	this.gotoAndStop(32);
+}).prototype = p = new cjs.Sprite();
+// helper functions:
+
+function mc_symbol_clone() {
+	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop, this.reversed));
+	clone.gotoAndStop(this.currentFrame);
+	clone.paused = this.paused;
+	clone.framerate = this.framerate;
+	return clone;
+}
+
+function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
+	var prototype = cjs.extend(symbol, cjs.MovieClip);
+	prototype.clone = mc_symbol_clone;
+	prototype.nominalBounds = nominalBounds;
+	prototype.frameBounds = frameBounds;
+	return prototype;
+	}
+
+
+(lib.椭圆1拷贝4_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆1拷贝4();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆1拷贝4_1, new cjs.Rectangle(0,0,229,63), null);
+
+
+(lib.cricle2_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.cricle2();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.cricle2_1, new cjs.Rectangle(0,0,617,235), null);
+
+
+(lib.cricle1_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.cricle1();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.cricle1_1, new cjs.Rectangle(0,0,465,177), null);
+
+
+(lib.组8拷贝3_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.组8拷贝3();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.组8拷贝3_1, new cjs.Rectangle(0,0,151,154), null);
+
+
+(lib.组8拷贝2_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.组8拷贝2();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.组8拷贝2_1, new cjs.Rectangle(0,0,151,154), null);
+
+
+(lib.椭圆2拷贝4_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆2拷贝4();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆2拷贝4_1, new cjs.Rectangle(0,0,24,24), null);
+
+
+(lib.rhombus_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.rhombus();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.rhombus_1, new cjs.Rectangle(0,0,151,154), null);
+
+
+(lib.ball6_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.ball6();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.ball6_1, new cjs.Rectangle(0,0,58,58), null);
+
+
+(lib.ball5_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.ball5();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.ball5_1, new cjs.Rectangle(0,0,32,32), null);
+
+
+(lib.ball4_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.ball4();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.ball4_1, new cjs.Rectangle(0,0,32,32), null);
+
+
+(lib.ball3_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.ball3();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.ball3_1, new cjs.Rectangle(0,0,21,20), null);
+
+
+(lib.ball2_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.ball2();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.ball2_1, new cjs.Rectangle(0,0,24,24), null);
+
+
+(lib.ball1_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.ball1();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.ball1_1, new cjs.Rectangle(0,0,58,58), null);
+
+
+(lib.图层11_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.图层11();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.图层11_1, new cjs.Rectangle(0,0,3093,1315), null);
+
+
+(lib.图层10_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.图层10();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.图层10_1, new cjs.Rectangle(0,0,3155,2003), null);
+
+
+(lib.椭圆16_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆16();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆16_1, new cjs.Rectangle(0,0,5,5), null);
+
+
+(lib.椭圆14_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆14();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆14_1, new cjs.Rectangle(0,0,6,6), null);
+
+
+(lib.椭圆12_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆12();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆12_1, new cjs.Rectangle(0,0,23,23), null);
+
+
+(lib.椭圆8_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆8();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆8_1, new cjs.Rectangle(0,0,5,5), null);
+
+
+(lib.椭圆3_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆3();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆3_1, new cjs.Rectangle(0,0,4,4), null);
+
+
+(lib.椭圆15_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆15();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆15_1, new cjs.Rectangle(0,0,4,4), null);
+
+
+(lib.椭圆13_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆13();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆13_1, new cjs.Rectangle(0,0,3,3), null);
+
+
+(lib.椭圆4_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆4();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆4_1, new cjs.Rectangle(0,0,4,4), null);
+
+
+(lib.椭圆2_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆2();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆2_1, new cjs.Rectangle(0,0,9,9), null);
+
+
+(lib.椭圆11_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆11();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆11_1, new cjs.Rectangle(0,0,3,3), null);
+
+
+(lib.椭圆10_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆10();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆10_1, new cjs.Rectangle(0,0,3,3), null);
+
+
+(lib.椭圆9_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆9();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆9_1, new cjs.Rectangle(0,0,5,5), null);
+
+
+(lib.椭圆7_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆7();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆7_1, new cjs.Rectangle(0,0,5,5), null);
+
+
+(lib.椭圆6_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆6();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆6_1, new cjs.Rectangle(0,0,9,9), null);
+
+
+(lib.椭圆5_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆5();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆5_1, new cjs.Rectangle(0,0,4,4), null);
+
+
+(lib.椭圆1拷贝11_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆1拷贝11();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆1拷贝11_1, new cjs.Rectangle(0,0,271,239), null);
+
+
+(lib.椭圆1拷贝10_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆1拷贝10();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆1拷贝10_1, new cjs.Rectangle(0,0,421,308), null);
+
+
+(lib.椭圆1拷贝2_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2 (mask)
+	var mask = new cjs.Shape();
+	mask._off = true;
+	mask.graphics.p("ArpOHQlXhLkJiHQkJiIiSivQiWi2AAjHQAAjHCWi2QCSiwEJiIQEJiHFXhLQFlhNGEAAQGGAAFjBNQFYBLEJCHQEJCICRCwQCXC2AADHQAADHiXC2QiRCvkJCIQkJCHlYBLQljBNmGAAQmEAAllhNg");
+	mask.setTransform(191.5,97.95);
+
+	// Layer_1
+	this.instance = new lib.椭圆1拷贝2();
+	this.instance.setTransform(-1798,-781);
+
+	var maskedShapeInstanceList = [this.instance];
+
+	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
+		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
+	}
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆1拷贝2_1, new cjs.Rectangle(0,0,383,196), null);
+
+
+(lib.椭圆1拷贝_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆1拷贝();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆1拷贝_1, new cjs.Rectangle(0,0,581,1006), null);
+
+
+(lib.椭圆1_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.椭圆1();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.椭圆1_1, new cjs.Rectangle(0,0,551,388), null);
+
+
+(lib.center_ball_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_2
+	this.instance = new lib.椭圆1拷贝4_1();
+	this.instance.setTransform(134.95,261.5,1,1,0,0,0,114.5,31.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// Layer_1
+	this.instance_1 = new lib.center_ball();
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.center_ball_1, new cjs.Rectangle(0,0,317,294), null);
+
+
+(lib.组1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// 组_8_拷贝_3
+	this.instance = new lib.组8拷贝3_1();
+	this.instance.setTransform(2652.7,1354,1,1,0,0,0,75.5,77);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({guide:{path:[2652.7,1354,2647,1357,2641,1360,2531.1,1415.3,2383.9,1445.8,2223.2,1479.1,2033.9,1479.1,1845.7,1479.1,1688.5,1442.5,1546.5,1409.4,1441.7,1349.6,1345.7,1294.8,1294.3,1225.7,1245.4,1160.1,1247,1096.2,1248.2,1041.4,1294.1,983.3,1341.2,923.6,1424.4,875.2,1513.9,823,1628.7,793.9,1755.1,761.9,1897.6,761.9,2039.9,761.9,2165.1,788.7,2278.4,812.9,2366.1,856.2,2447.2,896.3,2492.6,945.6,2536.5,993.3,2536.5,1037.9,2536.5,1083.2,2505.3,1126.6,2472.1,1172.6,2409.4,1208,2341,1246.5,2245.6,1267.5,2140.6,1290.6,2010.5,1290.6,1882.4,1290.6,1776.3,1264.4,1683.3,1241.5,1615.1,1200.7,1555,1164.8,1524,1121.6,1509.9,1102.1,1503.8,1083.3,1497.9,1065.1,1500.1,1049.6,1504.1,1021.4,1531.2,988.2,1561.6,950.9,1611.4,920.6,1669,885.6,1743.1,866,1828.3,843.6,1928.7,843.6,2030.6,843.6,2112.6,861.3,2186.8,877.4,2239.9,906.7,2288.3,933.5,2313.9,968.2,2337.8,1000.6,2337.8,1034,2337.8,1064.8,2308.4,1093.8,2281.3,1120.4,2233.6,1141.9,2188.3,1162.3,2134,1174,2079.7,1185.6,2030,1185.6,1978,1185.6,1917.2,1176.2,1851.9,1166.1,1797.9,1148.2,1737.4,1128.1,1703.2,1102,1664.5,1072.4,1663.8,1037.9,1663,997,1695.8,965.6,1723.8,938.9,1774.5,920.3,1816.5,905,1869,896.9,1912.2,890.2,1948.2,890.2,1981.9,890.2,2023.5,897.4,2070.7,905.6,2109.4,920.3,2154.7,937.5,2180,960.7,2209.3,987.5,2209.3,1020.4,2209.3,1052.7,2180.1,1075.8,2156.1,1094.9,2113.3,1106.9,2080.6,1116.1,2040,1120.4,2012.2,1123.4,1991.1,1123.4,1973,1123.4,1941.6,1119.2,1900.9,1113.6,1867.1,1104,1823.8,1091.5,1799.5,1074.2,1770.2,1053.2,1770.9,1026.2,1771.9,983.4,1815.2,958.7,1864.6,930.5,1965.1,929.1]}},1212).wait(1).to({x:94.55,y:1385},0).to({guide:{path:[94.7,1385.1,107.7,1346.3,127.8,1304.8,201.3,1152.8,340.1,1021.1,534.4,836.9,831.5,719.7,1202.9,573.2,1714.4,540.5,2199.7,535.7,2564.4,618.8,2873.2,689.2,3082.2,819.1,3171.4,874.5,3239.2,938.9,3299.4,996.2,3340.3,1058.2,3376.2,1112.7,3394.6,1166.6,3410.8,1214,3411.2,1253.6,3411.5,1278.9,3397.1,1315,3381.2,1355.3,3350.9,1398.9,3316.4,1448.6,3267.7,1496.1,3212.5,1549.8,3142.8,1596.9,2977.5,1708.7,2749,1772.4,2476.3,1848.5,2131.3,1850.3,1812.4,1853.1,1545.1,1782.7,1309.5,1720.6,1134.4,1608.1,1055.7,1557.4,994.2,1499.4,936.1,1444.5,897,1386.5,859.4,1330.8,842.4,1276.8,825.6,1223.9,830.1,1177.8,833.7,1139.9,850.8,1099.1,868.8,1056.3,900,1014,969.5,920,1090,845.7,1227.4,760.9,1413,714.1,1623.7,661,1882,661,2138.4,661,2340.7,711.8,2515.2,755.6,2639.8,834.4,2745.2,901.1,2802.4,983.9,2827.1,1019.6,2839.9,1054.8,2851.9,1087.5,2852.1,1115.6,2852.9,1179.4,2799.1,1242.9,2746.8,1304.7,2652.7,1354]}},685).wait(1));
+
+	// 组_8_拷贝_2
+	this.instance_1 = new lib.组8拷贝2_1();
+	this.instance_1.setTransform(1411.2,1741.65,1,1,0,0,0,75.5,77);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({guide:{path:[1411.3,1741.7,1257.8,1687.4,1134.4,1608.1,1055.6,1557.4,994.2,1499.4,936.1,1444.5,896.9,1386.5,859.4,1330.8,842.3,1276.8,825.6,1223.9,830,1177.8,833.7,1139.9,850.8,1099.1,868.7,1056.3,899.9,1014,969.4,919.9,1089.9,845.7,1227.3,760.9,1412.9,714.1,1623.5,661,1881.9,661,2138.3,661,2340.7,711.8,2515.2,755.6,2639.7,834.4,2745.1,901,2802.4,983.9,2827.1,1019.6,2839.9,1054.8,2851.8,1087.5,2852.1,1115.6,2852.8,1179.4,2799,1242.9,2743.5,1308.4,2641,1360,2531.1,1415.3,2383.9,1445.8,2223.1,1479.1,2033.9,1479.1,1845.6,1479.1,1688.4,1442.5,1546.5,1409.4,1441.6,1349.6,1345.7,1294.8,1294.3,1225.7,1245.4,1160.1,1246.9,1096.2,1248.1,1041.4,1294.1,983.3,1341.3,923.6,1424.5,875.2,1513.8,823.1,1628.7,794,1755,762,1897.5,762,2039.8,762,2165,788.8,2278.4,813,2366,856.3,2447.1,896.3,2492.5,945.6,2536.5,993.3,2536.5,1037.9,2536.5,1083.2,2505.2,1126.6,2472.1,1172.6,2409.4,1208,2341,1246.5,2245.5,1267.5,2140.6,1290.6,2010.5,1290.6,1882.3,1290.6,1776.2,1264.4,1683.3,1241.5,1615,1200.7,1554.9,1164.8,1523.9,1121.6,1509.9,1102.1,1503.8,1083.3,1497.9,1065.1,1500.1,1049.6,1504.1,1021.4,1531.2,988.2,1561.6,950.9,1611.4,920.6,1668.9,885.6,1743.1,866.1,1828.3,843.7,1928.7,843.7,2030.6,843.7,2112.6,861.4,2186.8,877.4,2239.9,906.7,2288.3,933.5,2313.9,968.2,2337.8,1000.6,2337.8,1034,2337.8,1064.8,2308.3,1093.8,2281.3,1120.4,2233.5,1141.9,2188.2,1162.3,2133.9,1174,2079.7,1185.6,2030,1185.6,1977.9,1185.6,1917.1,1176.2,1851.9,1166.1,1797.9,1148.2,1737.3,1128.1,1703.1,1102,1664.4,1072.4,1663.7,1037.9,1663,997,1695.8,965.6,1723.7,938.9,1774.5,920.3,1816.4,905,1868.9,896.9,1912.2,890.2,1948.2,890.2,1981.9,890.2,2023.5,897.4,2070.7,905.6,2109.4,920.3,2154.6,937.5,2179.9,960.7,2209.2,987.5,2209.2,1020.4,2209.2,1052.7,2180.1,1075.8,2156,1094.9,2113.3,1106.9,2080.6,1116.1,2039.9,1120.4,2012.1,1123.4,1991,1123.4,1973,1123.4,1941.5,1119.2,1900.8,1113.6,1867,1104,1823.7,1091.5,1799.5,1074.2,1770.2,1053.2,1770.9,1026.2,1771.9,983.4,1815.1,958.7,1859.9,933.2,1946.5,929.7]}},1357).wait(1).to({x:91.25,y:1395.2},0).to({guide:{path:[91.4,1395.2,105,1351.8,127.8,1304.8,201.3,1152.8,340.1,1021.1,534.4,836.9,831.5,719.7,1202.9,573.2,1714.4,540.5,2199.7,535.7,2564.4,618.8,2873.2,689.2,3082.2,819.1,3171.4,874.5,3239.2,938.9,3299.4,996.2,3340.3,1058.2,3376.2,1112.7,3394.6,1166.6,3410.8,1214,3411.2,1253.6,3411.5,1278.9,3397.1,1315,3381.2,1355.3,3350.9,1398.9,3316.4,1448.6,3267.7,1496.1,3212.5,1549.8,3142.8,1596.9,2977.5,1708.7,2749,1772.4,2476.3,1848.5,2131.3,1850.3,1812.4,1853.1,1545.1,1782.7,1475.6,1764.4,1411.4,1741.7]}},540).wait(1));
+
+	// ball1
+	this.instance_2 = new lib.ball1_1();
+	this.instance_2.setTransform(265.4,1098.7,1,1,0,0,0,29,29);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({guide:{path:[265.5,1098.7,300.1,1059.1,340.1,1021.1,534.4,836.9,831.5,719.7,1202.9,573.2,1714.4,540.5,2199.7,535.7,2564.4,618.8,2873.2,689.2,3082.2,819.1,3171.4,874.5,3239.2,938.9,3299.4,996.2,3340.3,1058.2,3376.2,1112.7,3394.6,1166.6,3410.8,1214,3411.2,1253.6,3411.5,1278.9,3397.1,1315,3381.2,1355.3,3350.9,1398.9,3316.4,1448.6,3267.7,1496.1,3212.5,1549.8,3142.8,1596.9,2977.5,1708.7,2749,1772.4,2476.3,1848.5,2131.3,1850.3,1812.4,1853.1,1545.1,1782.7,1309.5,1720.6,1134.4,1608.1,1055.7,1557.4,994.2,1499.4,936.1,1444.5,897,1386.5,859.4,1330.8,842.4,1276.8,825.6,1223.9,830.1,1177.8,833.7,1139.9,850.8,1099.1,868.8,1056.3,900,1014,969.5,920,1090,845.7,1227.4,760.9,1413,714.1,1623.7,661,1882,661,2138.4,661,2340.7,711.8,2515.2,755.6,2639.8,834.4,2745.2,901.1,2802.4,983.9,2827.1,1019.6,2839.9,1054.8,2851.9,1087.5,2852.1,1115.6,2852.9,1179.4,2799.1,1242.9,2743.5,1308.4,2641,1360,2531.1,1415.3,2383.9,1445.8,2223.2,1479.1,2033.9,1479.1,1845.7,1479.1,1688.6,1442.5,1546.6,1409.4,1441.8,1349.6,1345.8,1294.8,1294.3,1225.7,1245.4,1160.1,1247,1096.2,1248.2,1041.4,1294.1,983.3,1341.3,923.7,1424.5,875.3,1514,823.1,1628.8,794,1755.1,762,1897.6,762,2039.9,762,2165.1,788.8,2278.4,813,2366.1,856.3,2447.2,896.4,2492.6,945.6,2536.5,993.3,2536.5,1037.9,2536.5,1083.2,2505.3,1126.6,2472.1,1172.6,2409.4,1208,2341,1246.5,2245.6,1267.5,2140.6,1290.6,2010.5,1290.6,1882.4,1290.6,1776.3,1264.4,1683.4,1241.5,1615.2,1200.7,1555.1,1164.8,1524.1,1121.6,1510,1102.1,1503.9,1083.3,1498,1065.1,1500.2,1049.6,1504.2,1021.4,1531.3,988.2,1561.7,950.9,1611.5,920.7,1669.1,885.7,1743.1,866.1,1828.3,843.7,1928.7,843.7,2030.6,843.7,2112.6,861.4,2186.8,877.5,2239.9,906.8,2288.3,933.5,2313.9,968.2,2337.8,1000.6,2337.8,1034,2337.8,1064.8,2308.4,1093.8,2281.3,1120.4,2233.6,1141.9,2188.3,1162.3,2134,1174,2079.7,1185.6,2030,1185.6,1978,1185.6,1917.2,1176.2,1851.9,1166.1,1797.9,1148.2,1737.4,1128.1,1703.3,1102,1664.6,1072.4,1663.9,1037.9,1663.1,997,1695.9,965.6,1723.8,938.9,1774.5,920.4,1816.5,905.1,1869,897,1912.2,890.3,1948.2,890.3,1981.9,890.3,2023.5,897.5,2070.7,905.7,2109.4,920.4,2154.7,937.5,2180,960.7,2209.3,987.5,2209.3,1020.4,2209.3,1052.7,2180.1,1075.8,2156.1,1094.9,2113.3,1106.9,2080.6,1116.1,2040,1120.4,2012.2,1123.4,1991.1,1123.4,1973,1123.4,1941.6,1119.2,1900.9,1113.6,1867.1,1104,1823.8,1091.5,1799.5,1074.2,1770.2,1053.2,1770.9,1026.2,1771.9,983.4,1815.2,958.7,1858,934.3,1939.3,930]}},1800).wait(1).to({x:89.05,y:1402.3},0).to({x:260,y:1094},97).wait(1));
+
+	// ball6
+	this.instance_3 = new lib.ball6_1();
+	this.instance_3.setTransform(2530.2,1003.75,1,1,0,0,0,29,29);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({guide:{path:[2530.2,1003.7,2536.5,1021,2536.5,1037.9,2536.5,1083.2,2505.3,1126.5,2472.1,1172.6,2409.4,1207.9,2341,1246.5,2245.6,1267.4,2140.6,1290.5,2010.5,1290.5,1882.3,1290.5,1776.3,1264.3,1683.3,1241.4,1615,1200.6,1555,1164.7,1524,1121.6,1509.9,1102,1503.8,1083.3,1497.9,1065,1500.1,1049.5,1504.1,1021.3,1531.2,988.1,1561.6,950.9,1611.4,920.6,1669,885.5,1743.1,866,1828.3,843.5,1928.7,843.5,2030.6,843.5,2112.6,861.3,2186.8,877.3,2239.9,906.7,2288.3,933.5,2313.9,968.1,2337.8,1000.6,2337.8,1034,2337.8,1064.7,2308.4,1093.7,2281.3,1120.3,2233.6,1141.8,2188.3,1162.2,2133.9,1173.9,2079.7,1185.6,2030,1185.6,1978,1185.6,1917.2,1176.2,1851.9,1166,1797.9,1148.1,1737.3,1128.1,1703.2,1101.9,1664.5,1072.3,1663.8,1037.9,1663,997,1695.8,965.6,1723.8,938.8,1774.5,920.3,1816.5,904.9,1869,896.8,1912.2,890.1,1948.2,890.1,1981.9,890.1,2023.5,897.3,2070.7,905.5,2109.4,920.2,2154.7,937.4,2179.9,960.6,2209.3,987.5,2209.3,1020.3,2209.3,1052.7,2180.1,1075.8,2156.1,1094.8,2113.3,1106.8,2080.6,1116,2040,1120.4,2012.2,1123.4,1991.1,1123.4,1973,1123.4,1941.6,1119.1,1900.8,1113.6,1867.1,1103.9,1823.8,1091.5,1799.5,1074.1,1770.2,1053.1,1770.9,1026.2,1771.9,983.4,1815.2,958.7,1867.1,929,1975.5,929]}},745).wait(1).to({x:91.8,y:1393.5},0).to({guide:{path:[91.9,1393.5,105.5,1350.9,127.8,1304.8,201.3,1152.8,340.1,1021.1,534.4,836.9,831.5,719.7,1202.9,573.2,1714.4,540.5,2199.7,535.7,2564.4,618.8,2873.2,689.2,3082.2,819.1,3171.4,874.5,3239.2,938.9,3299.4,996.2,3340.3,1058.2,3376.2,1112.7,3394.6,1166.6,3410.8,1214,3411.2,1253.6,3411.5,1278.9,3397.1,1315,3381.2,1355.3,3350.9,1398.9,3316.4,1448.6,3267.7,1496.1,3212.5,1549.8,3142.8,1596.9,2977.5,1708.7,2749,1772.4,2476.3,1848.5,2131.3,1850.3,1812.4,1853.1,1545.1,1782.7,1309.5,1720.6,1134.4,1608.1,1055.7,1557.4,994.2,1499.4,936.1,1444.5,897,1386.5,859.4,1330.8,842.4,1276.8,825.6,1223.9,830.1,1177.8,833.7,1139.9,850.8,1099.1,868.8,1056.3,900,1014,969.5,920,1090,845.7,1227.4,760.9,1413,714.1,1623.7,661,1882,661,2138.4,661,2340.7,711.8,2515.2,755.6,2639.8,834.4,2745.2,901.1,2802.4,983.9,2827.1,1019.6,2839.9,1054.8,2851.9,1087.5,2852.1,1115.6,2852.9,1179.4,2799.1,1242.9,2743.5,1308.4,2641,1360,2531.1,1415.3,2383.9,1445.8,2223.2,1479.1,2033.9,1479.1,1845.7,1479.1,1688.6,1442.5,1546.6,1409.4,1441.8,1349.6,1345.8,1294.8,1294.3,1225.7,1245.4,1160.1,1247,1096.2,1248.2,1041.4,1294.1,983.3,1341.3,923.7,1424.5,875.3,1514,823.1,1628.8,794,1755.1,762,1897.6,762,2039.9,762,2165.1,788.8,2278.4,813,2366.1,856.3,2447.2,896.4,2492.6,945.6,2519.9,975.3,2530.3,1003.8]}},1152).wait(1));
+
+	// ball4
+	this.instance_4 = new lib.ball4_1();
+	this.instance_4.setTransform(2400.45,586.8,1,1,0,0,0,16,16);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({guide:{path:[2400.5,586.9,2485.3,600.8,2564.4,618.8,2873.2,689.2,3082.2,819.1,3171.4,874.5,3239.2,938.9,3299.4,996.2,3340.3,1058.2,3376.2,1112.7,3394.6,1166.6,3410.8,1214,3411.2,1253.6,3411.5,1278.9,3397.1,1315,3381.2,1355.3,3350.9,1398.9,3316.4,1448.6,3267.7,1496.1,3212.5,1549.8,3142.8,1596.9,2977.5,1708.7,2749,1772.4,2476.3,1848.5,2131.3,1850.3,1812.4,1853.1,1545.1,1782.7,1309.5,1720.6,1134.4,1608.1,1055.7,1557.4,994.2,1499.4,936.1,1444.5,897,1386.5,859.4,1330.8,842.4,1276.8,825.6,1223.9,830.1,1177.8,833.7,1139.9,850.8,1099.1,868.8,1056.3,900,1014,969.5,920,1090,845.7,1227.4,760.9,1413,714.1,1623.7,661,1882,661,2138.4,661,2340.7,711.8,2515.2,755.6,2639.8,834.4,2745.2,901.1,2802.4,983.9,2827.1,1019.6,2839.9,1054.8,2851.9,1087.5,2852.1,1115.6,2852.9,1179.4,2799.1,1242.9,2743.5,1308.4,2641,1360,2531.1,1415.3,2383.9,1445.8,2223.2,1479.1,2033.9,1479.1,1845.7,1479.1,1688.6,1442.5,1546.6,1409.4,1441.8,1349.6,1345.8,1294.8,1294.3,1225.7,1245.4,1160.1,1247,1096.2,1248.2,1041.4,1294.1,983.3,1341.3,923.7,1424.5,875.3,1514,823.1,1628.8,794,1755.1,762,1897.6,762,2039.9,762,2165.1,788.8,2278.4,813,2366.1,856.3,2447.2,896.4,2492.6,945.6,2536.5,993.3,2536.5,1037.9,2536.5,1083.2,2505.3,1126.6,2472.1,1172.6,2409.4,1208,2341,1246.5,2245.6,1267.5,2140.6,1290.6,2010.5,1290.6,1882.4,1290.6,1776.3,1264.4,1683.4,1241.5,1615.2,1200.7,1555.1,1164.8,1524.1,1121.6,1510,1102.1,1503.9,1083.3,1498,1065.1,1500.2,1049.6,1504.2,1021.4,1531.3,988.2,1561.7,950.9,1611.5,920.7,1669.1,885.7,1743.1,866.1,1828.3,843.7,1928.7,843.7,2030.6,843.7,2112.6,861.4,2186.8,877.5,2239.9,906.8,2288.3,933.5,2313.9,968.2,2337.8,1000.6,2337.8,1034,2337.8,1064.8,2308.4,1093.8,2281.3,1120.4,2233.6,1141.9,2188.3,1162.3,2134,1174,2079.7,1185.6,2030,1185.6,1978,1185.6,1917.2,1176.2,1851.9,1166.1,1797.9,1148.2,1737.4,1128.1,1703.3,1102,1664.6,1072.4,1663.9,1037.9,1663.1,997,1695.9,965.6,1723.8,938.9,1774.5,920.4,1816.5,905.1,1869,897,1912.2,890.3,1948.2,890.3,1981.9,890.3,2023.5,897.5,2070.7,905.7,2109.4,920.4,2154.7,937.5,2180,960.7,2209.3,987.5,2209.3,1020.4,2209.3,1052.7,2180.1,1075.8,2156.1,1094.9,2113.3,1106.9,2080.6,1116.1,2040,1120.4,2012.2,1123.4,1991.1,1123.4,1973,1123.4,1941.6,1119.2,1900.9,1113.6,1867.1,1104,1823.8,1091.5,1799.5,1074.2,1770.2,1053.2,1770.9,1026.2,1771.9,983.4,1815.2,958.7,1845.2,941.6,1894,934.4]}},1468).wait(1).to({x:88.45,y:1404.3},0).to({guide:{path:[88.6,1404.3,89.8,1400.4,91.1,1396.1,104.8,1352.3,127.8,1304.8,201.3,1152.7,340.1,1021.1,534.4,836.8,831.5,719.6,1202.8,573.1,1714.4,540.4,2094.4,536.7,2400.5,586.9]}},429).wait(1));
+
+	// ball2
+	this.instance_5 = new lib.ball2_1();
+	this.instance_5.setTransform(1047.85,873.15,1,1,0,0,0,12,12);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({guide:{path:[1047.9,873.2,1068.1,859,1089.9,845.6,1227.3,760.8,1412.9,714.1,1623.5,661,1881.9,661,2138.3,661,2340.7,711.8,2515.2,755.5,2639.7,834.3,2745.1,901,2802.4,983.9,2827.1,1019.6,2839.9,1054.8,2851.8,1087.5,2852.1,1115.6,2852.8,1179.4,2799,1242.9,2743.5,1308.4,2641,1360,2531.1,1415.3,2383.9,1445.8,2223.1,1479.1,2033.9,1479.1,1845.6,1479.1,1688.4,1442.5,1546.5,1409.4,1441.6,1349.6,1345.7,1294.8,1294.3,1225.7,1245.4,1160.1,1246.9,1096.2,1248.1,1041.4,1294.1,983.3,1341.3,923.6,1424.5,875.2,1513.8,823,1628.7,793.9,1755,761.9,1897.5,761.9,2039.8,761.9,2165,788.7,2278.4,812.9,2366,856.2,2447.1,896.3,2492.5,945.6,2536.5,993.3,2536.5,1037.9,2536.5,1083.2,2505.2,1126.6,2472.1,1172.6,2409.4,1208,2341,1246.5,2245.5,1267.5,2140.6,1290.6,2010.5,1290.6,1882.3,1290.6,1776.2,1264.4,1683.3,1241.5,1615,1200.7,1554.9,1164.8,1523.9,1121.6,1509.9,1102.1,1503.8,1083.3,1497.9,1065.1,1500.1,1049.6,1504.1,1021.4,1531.2,988.2,1561.6,950.9,1611.4,920.6,1668.9,885.6,1743.1,866,1828.3,843.6,1928.7,843.6,2030.6,843.6,2112.6,861.3,2186.8,877.4,2239.9,906.7,2288.3,933.5,2313.9,968.2,2337.8,1000.6,2337.8,1034,2337.8,1064.8,2308.3,1093.8,2281.3,1120.4,2233.5,1141.9,2188.2,1162.3,2133.9,1174,2079.7,1185.6,2030,1185.6,1977.9,1185.6,1917.1,1176.2,1851.9,1166.1,1797.9,1148.2,1737.3,1128.1,1703.1,1102,1664.4,1072.4,1663.7,1037.9,1663,997,1695.8,965.6,1723.7,938.9,1774.5,920.3,1816.4,905,1868.9,896.9,1912.2,890.2,1948.2,890.2,1981.9,890.2,2023.5,897.4,2070.7,905.6,2109.4,920.3,2154.6,937.5,2179.9,960.7,2209.2,987.5,2209.2,1020.4,2209.2,1052.7,2180.1,1075.8,2156,1094.9,2113.3,1106.9,2080.6,1116.1,2039.9,1120.4,2012.1,1123.4,1991,1123.4,1973,1123.4,1941.5,1119.2,1900.8,1113.6,1867,1104,1823.7,1091.5,1799.5,1074.2,1770.2,1053.2,1770.9,1026.2,1771.9,983.4,1815.1,958.7,1857.2,934.7,1936.4,930.1]}},1138).wait(1).to({x:92.1,y:1392.45},0).to({guide:{path:[92.3,1392.5,105.8,1350.4,127.8,1304.8,201.3,1152.8,340.1,1021.1,534.4,836.9,831.5,719.7,1202.9,573.2,1714.4,540.5,2199.7,535.7,2564.4,618.8,2873.2,689.2,3082.2,819.1,3171.4,874.5,3239.2,938.9,3299.4,996.2,3340.3,1058.2,3376.2,1112.7,3394.6,1166.6,3410.8,1214,3411.2,1253.6,3411.5,1278.9,3397.1,1315,3381.2,1355.3,3350.9,1398.9,3316.4,1448.6,3267.7,1496.1,3212.5,1549.8,3142.8,1596.9,2977.5,1708.7,2749,1772.4,2476.3,1848.5,2131.3,1850.3,1812.4,1853.1,1545.1,1782.7,1309.5,1720.6,1134.4,1608.1,1055.7,1557.4,994.2,1499.4,936.1,1444.5,897,1386.5,859.4,1330.8,842.4,1276.8,825.6,1223.9,830.1,1177.8,833.7,1139.9,850.8,1099.1,868.8,1056.3,900,1014,956.9,937,1048,873.3]}},759).wait(1));
+
+	// 椭圆_2_拷贝_4
+	this.instance_6 = new lib.椭圆2拷贝4_1();
+	this.instance_6.setTransform(1269.9,1187.4,1,1,0,0,0,12,12);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({guide:{path:[1269.9,1187.4,1245.9,1141.4,1246.9,1096.2,1248.1,1041.4,1294,983.3,1341.2,923.6,1424.4,875.1,1513.8,823,1628.7,793.9,1755.1,761.9,1897.6,761.9,2039.8,761.9,2165.1,788.6,2278.4,812.8,2366.1,856.2,2447.2,896.3,2492.6,945.6,2536.5,993.3,2536.5,1037.9,2536.5,1083.2,2505.3,1126.5,2472.1,1172.6,2409.4,1207.9,2341,1246.5,2245.6,1267.4,2140.6,1290.5,2010.5,1290.5,1882.3,1290.5,1776.3,1264.3,1683.3,1241.4,1615,1200.6,1555,1164.7,1524,1121.6,1509.9,1102,1503.8,1083.3,1497.9,1065,1500.1,1049.5,1504.1,1021.3,1531.2,988.1,1561.6,950.9,1611.4,920.6,1669,885.5,1743.1,866,1828.3,843.5,1928.7,843.5,2030.6,843.5,2112.6,861.3,2186.8,877.3,2239.9,906.7,2288.3,933.5,2313.9,968.1,2337.8,1000.6,2337.8,1034,2337.8,1064.7,2308.4,1093.7,2281.3,1120.3,2233.6,1141.8,2188.3,1162.2,2133.9,1173.9,2079.7,1185.6,2030,1185.6,1978,1185.6,1917.2,1176.2,1851.9,1166,1797.9,1148.1,1737.3,1128.1,1703.2,1101.9,1664.5,1072.3,1663.8,1037.9,1663,997,1695.8,965.6,1723.8,938.8,1774.5,920.3,1816.5,904.9,1869,896.8,1912.2,890.1,1948.2,890.1,1981.9,890.1,2023.5,897.3,2070.7,905.5,2109.4,920.2,2154.7,937.4,2179.9,960.6,2209.3,987.5,2209.3,1020.3,2209.3,1052.7,2180.1,1075.8,2156.1,1094.8,2113.3,1106.8,2080.6,1116,2040,1120.4,2012.2,1123.4,1991.1,1123.4,1973,1123.4,1941.6,1119.1,1900.8,1113.6,1867.1,1103.9,1823.8,1091.5,1799.5,1074.1,1770.2,1053.1,1770.9,1026.2,1771.9,983.4,1815.2,958.7,1865.3,930.1,1968,929.1]}},813).wait(1).to({x:90.25,y:1398.4},0).to({guide:{path:[90.4,1398.4,90.7,1397.3,91.1,1396.2,104.8,1352.3,127.8,1304.8,201.3,1152.8,340.1,1021.1,534.4,836.9,831.5,719.7,1202.9,573.2,1714.4,540.5,2199.7,535.7,2564.4,618.8,2873.2,689.2,3082.2,819.1,3171.4,874.5,3239.2,938.9,3299.4,996.2,3340.3,1058.2,3376.2,1112.7,3394.6,1166.6,3410.8,1214,3411.2,1253.6,3411.5,1278.9,3397.1,1315,3381.2,1355.3,3350.9,1398.9,3316.4,1448.6,3267.7,1496.1,3212.5,1549.8,3142.8,1596.9,2977.5,1708.7,2749,1772.4,2476.3,1848.5,2131.3,1850.3,1812.4,1853.1,1545.1,1782.7,1309.5,1720.6,1134.4,1608.1,1055.7,1557.4,994.2,1499.4,936.1,1444.5,897,1386.5,859.4,1330.8,842.4,1276.8,825.6,1223.9,830.1,1177.8,833.7,1139.9,850.8,1099.1,868.8,1056.3,900,1014,969.5,920,1090,845.7,1227.4,760.9,1413,714.1,1623.7,661,1882,661,2138.4,661,2340.7,711.8,2515.2,755.6,2639.8,834.4,2745.2,901.1,2802.4,983.9,2827.1,1019.6,2839.9,1054.8,2851.9,1087.5,2852.1,1115.6,2852.9,1179.4,2799.1,1242.9,2743.5,1308.4,2641,1360,2531.1,1415.3,2383.9,1445.8,2223.2,1479.1,2033.9,1479.1,1845.7,1479.1,1688.6,1442.5,1546.6,1409.4,1441.8,1349.6,1345.8,1294.8,1294.3,1225.7,1280,1206.5,1270,1187.4]}},1084).wait(1));
+
+	// ball3
+	this.instance_7 = new lib.ball3_1();
+	this.instance_7.setTransform(1282.85,592.75,1,1,0,0,0,10.5,10);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).to({guide:{path:[1283,592.9,1484.6,555.2,1714.4,540.5,2199.7,535.7,2564.4,618.8,2873.2,689.2,3082.2,819.1,3171.4,874.5,3239.2,938.9,3299.4,996.2,3340.3,1058.2,3376.2,1112.7,3394.6,1166.6,3410.8,1214,3411.2,1253.6,3411.5,1278.9,3397.1,1315,3381.2,1355.3,3350.9,1398.9,3316.4,1448.6,3267.7,1496.1,3212.5,1549.8,3142.8,1596.9,2977.5,1708.7,2749,1772.4,2476.3,1848.5,2131.3,1850.3,1812.4,1853.1,1545.1,1782.7,1309.5,1720.6,1134.4,1608.1,1055.7,1557.4,994.2,1499.4,936.1,1444.5,897,1386.5,859.4,1330.8,842.4,1276.8,825.6,1223.9,830.1,1177.8,833.7,1139.9,850.8,1099.1,868.8,1056.3,900,1014,969.5,920,1090,845.7,1227.4,760.9,1413,714.1,1623.7,661,1882,661,2138.4,661,2340.7,711.8,2515.2,755.6,2639.8,834.4,2745.2,901.1,2802.4,983.9,2827.1,1019.6,2839.9,1054.8,2851.9,1087.5,2852.1,1115.6,2852.9,1179.4,2799.1,1242.9,2743.5,1308.4,2641,1360,2531.1,1415.3,2383.9,1445.8,2223.2,1479.1,2033.9,1479.1,1845.7,1479.1,1688.6,1442.5,1546.6,1409.4,1441.8,1349.6,1345.8,1294.8,1294.3,1225.7,1245.4,1160.1,1247,1096.2,1248.2,1041.4,1294.1,983.3,1341.3,923.7,1424.5,875.3,1514,823.1,1628.8,794,1755.1,762,1897.6,762,2039.9,762,2165.1,788.8,2278.4,813,2366.1,856.3,2447.2,896.4,2492.6,945.6,2536.5,993.3,2536.5,1037.9,2536.5,1083.2,2505.3,1126.6,2472.1,1172.6,2409.4,1208,2341,1246.5,2245.6,1267.5,2140.6,1290.6,2010.5,1290.6,1882.4,1290.6,1776.3,1264.4,1683.4,1241.5,1615.2,1200.7,1555.1,1164.8,1524.1,1121.6,1510,1102.1,1503.9,1083.3,1498,1065.1,1500.2,1049.6,1504.2,1021.4,1531.3,988.2,1561.7,950.9,1611.5,920.7,1669.1,885.7,1743.1,866.1,1828.3,843.7,1928.7,843.7,2030.6,843.7,2112.6,861.4,2186.8,877.5,2239.9,906.8,2288.3,933.5,2313.9,968.2,2337.8,1000.6,2337.8,1034,2337.8,1064.8,2308.4,1093.8,2281.3,1120.4,2233.6,1141.9,2188.3,1162.3,2134,1174,2079.7,1185.6,2030,1185.6,1978,1185.6,1917.2,1176.2,1851.9,1166.1,1797.9,1148.2,1737.4,1128.1,1703.3,1102,1664.6,1072.4,1663.9,1037.9,1663.1,997,1695.9,965.6,1723.8,938.9,1774.5,920.4,1816.5,905.1,1869,897,1912.2,890.3,1948.2,890.3,1981.9,890.3,2023.5,897.5,2070.7,905.7,2109.4,920.4,2154.7,937.5,2180,960.7,2209.3,987.5,2209.3,1020.4,2209.3,1052.7,2180.1,1075.8,2156.1,1094.9,2113.3,1106.9,2080.6,1116.1,2040,1120.4,2012.2,1123.4,1991.1,1123.4,1973,1123.4,1941.6,1119.2,1900.9,1113.6,1867.1,1104,1823.8,1091.5,1799.5,1074.2,1770.2,1053.2,1770.9,1026.2,1771.9,983.4,1815.2,958.7,1858.3,934.2,1940,930]}},1601).wait(1).to({x:88.95,y:1402.7},0).to({guide:{path:[89.1,1402.7,90,1399.5,91.1,1396.2,104.8,1352.3,127.8,1304.8,201.3,1152.8,340.1,1021.1,534.4,836.8,831.4,719.6,1035.9,639,1282.9,592.8]}},296).wait(1));
+
+	// ball5
+	this.instance_8 = new lib.ball5_1();
+	this.instance_8.setTransform(2659.75,847.4,1,1,0,0,0,16,16);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({guide:{path:[2659.8,847.4,2750.7,909,2802.4,983.9,2827.1,1019.6,2839.9,1054.8,2851.8,1087.5,2852.1,1115.6,2852.8,1179.4,2799,1242.9,2743.5,1308.4,2641,1360,2531.1,1415.3,2383.9,1445.8,2223.1,1479.1,2033.9,1479.1,1845.6,1479.1,1688.4,1442.5,1546.5,1409.4,1441.6,1349.6,1345.7,1294.8,1294.3,1225.7,1245.4,1160.1,1246.9,1096.2,1248.1,1041.4,1294.1,983.3,1341.3,923.6,1424.5,875.2,1513.8,823,1628.7,793.9,1755,761.9,1897.5,761.9,2039.8,761.9,2165,788.7,2278.4,812.9,2366,856.2,2447.1,896.3,2492.5,945.6,2536.5,993.3,2536.5,1037.9,2536.5,1083.2,2505.2,1126.6,2472.1,1172.6,2409.4,1208,2341,1246.5,2245.5,1267.5,2140.6,1290.6,2010.5,1290.6,1882.3,1290.6,1776.2,1264.4,1683.3,1241.5,1615,1200.7,1554.9,1164.8,1523.9,1121.6,1509.9,1102.1,1503.8,1083.3,1497.9,1065.1,1500.1,1049.6,1504.1,1021.4,1531.2,988.2,1561.6,950.9,1611.4,920.6,1668.9,885.6,1743.1,866,1828.3,843.6,1928.7,843.6,2030.6,843.6,2112.6,861.3,2186.8,877.4,2239.9,906.7,2288.3,933.5,2313.9,968.2,2337.8,1000.6,2337.8,1034,2337.8,1064.8,2308.3,1093.8,2281.3,1120.4,2233.5,1141.9,2188.2,1162.3,2133.9,1174,2079.7,1185.6,2030,1185.6,1977.9,1185.6,1917.1,1176.2,1851.9,1166.1,1797.9,1148.2,1737.3,1128.1,1703.1,1102,1664.4,1072.4,1663.7,1037.9,1663,997,1695.8,965.6,1723.7,938.9,1774.5,920.3,1816.4,905,1868.9,896.9,1912.2,890.2,1948.2,890.2,1981.9,890.2,2023.5,897.4,2070.7,905.6,2109.4,920.3,2154.6,937.5,2179.9,960.7,2209.2,987.5,2209.2,1020.4,2209.2,1052.7,2180.1,1075.8,2156,1094.9,2113.3,1106.9,2080.6,1116.1,2039.9,1120.4,2012.1,1123.4,1991,1123.4,1973,1123.4,1941.5,1119.2,1900.8,1113.6,1867,1104,1823.7,1091.5,1799.5,1074.2,1770.2,1053.2,1770.9,1026.2,1771.9,983.4,1815.1,958.7,1849.4,939.2,1908.1,932.5]}},1012).wait(1).to({x:95.75,y:1381.5},0).to({guide:{path:[95.9,1381.5,108.6,1344.5,127.8,1304.8,201.3,1152.8,340.1,1021.1,534.4,836.9,831.5,719.7,1202.9,573.2,1714.4,540.5,2199.7,535.7,2564.4,618.8,2873.2,689.2,3082.2,819.1,3171.4,874.5,3239.2,938.9,3299.4,996.2,3340.3,1058.2,3376.2,1112.7,3394.6,1166.6,3410.8,1214,3411.2,1253.6,3411.5,1278.9,3397.1,1315,3381.2,1355.3,3350.9,1398.9,3316.4,1448.6,3267.7,1496.1,3212.5,1549.8,3142.8,1596.9,2977.5,1708.7,2749,1772.4,2476.3,1848.5,2131.3,1850.3,1812.4,1853.1,1545.1,1782.7,1309.5,1720.6,1134.4,1608.1,1055.7,1557.4,994.2,1499.4,936.1,1444.5,897,1386.5,859.4,1330.8,842.4,1276.8,825.6,1223.9,830.1,1177.8,833.7,1139.9,850.8,1099.1,868.8,1056.3,900,1014,969.5,920,1090,845.7,1227.4,760.9,1413,714.1,1623.7,661,1882,661,2138.4,661,2340.7,711.8,2515.2,755.6,2639.8,834.4,2650,840.9,2659.8,847.5]}},885).wait(1));
+
+	// rhombus
+	this.instance_9 = new lib.rhombus_1();
+	this.instance_9.setTransform(744,756.55,1,1,0,0,0,75.5,77);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).to({guide:{path:[744.1,756.7,786.7,737.5,831.5,719.7,1202.9,573.2,1714.4,540.5,2199.7,535.7,2564.4,618.8,2873.2,689.2,3082.2,819.1,3171.4,874.5,3239.2,938.9,3299.4,996.2,3340.3,1058.2,3376.2,1112.7,3394.6,1166.6,3410.8,1214,3411.2,1253.6,3411.5,1278.9,3397.1,1315,3381.2,1355.3,3350.9,1398.9,3316.4,1448.6,3267.7,1496.1,3212.5,1549.8,3142.8,1596.9,2977.5,1708.7,2749,1772.4,2476.3,1848.5,2131.3,1850.3,1812.4,1853.1,1545.1,1782.7,1309.5,1720.6,1134.4,1608.1,1055.7,1557.4,994.2,1499.4,936.1,1444.5,897,1386.5,859.4,1330.8,842.4,1276.8,825.6,1223.9,830.1,1177.8,833.7,1139.9,850.8,1099.1,868.8,1056.3,900,1014,969.5,920,1090,845.7,1227.4,760.9,1413,714.1,1623.7,661,1882,661,2138.4,661,2340.7,711.8,2515.2,755.6,2639.8,834.4,2745.2,901.1,2802.4,983.9,2827.1,1019.6,2839.9,1054.8,2851.9,1087.5,2852.1,1115.6,2852.9,1179.4,2799.1,1242.9,2743.5,1308.4,2641,1360,2531.1,1415.3,2383.9,1445.8,2223.2,1479.1,2033.9,1479.1,1845.7,1479.1,1688.6,1442.5,1546.6,1409.4,1441.8,1349.6,1345.8,1294.8,1294.3,1225.7,1245.4,1160.1,1247,1096.2,1248.2,1041.4,1294.1,983.3,1341.3,923.7,1424.5,875.3,1514,823.1,1628.8,794,1755.1,762,1897.6,762,2039.9,762,2165.1,788.8,2278.4,813,2366.1,856.3,2447.2,896.4,2492.6,945.6,2536.5,993.3,2536.5,1037.9,2536.5,1083.2,2505.3,1126.6,2472.1,1172.6,2409.4,1208,2341,1246.5,2245.6,1267.5,2140.6,1290.6,2010.5,1290.6,1882.4,1290.6,1776.3,1264.4,1683.4,1241.5,1615.2,1200.7,1555.1,1164.8,1524.1,1121.6,1510,1102.1,1503.9,1083.3,1498,1065.1,1500.2,1049.6,1504.2,1021.4,1531.3,988.2,1561.7,950.9,1611.5,920.7,1669.1,885.7,1743.1,866.1,1828.3,843.7,1928.7,843.7,2030.6,843.7,2112.6,861.4,2186.8,877.5,2239.9,906.8,2288.3,933.5,2313.9,968.2,2337.8,1000.6,2337.8,1034,2337.8,1064.8,2308.4,1093.8,2281.3,1120.4,2233.6,1141.9,2188.3,1162.3,2134,1174,2079.7,1185.6,2030,1185.6,1978,1185.6,1917.2,1176.2,1851.9,1166.1,1797.9,1148.2,1737.4,1128.1,1703.3,1102,1664.6,1072.4,1663.9,1037.9,1663.1,997,1695.9,965.6,1723.8,938.9,1774.5,920.4,1816.5,905.1,1869,897,1912.2,890.3,1948.2,890.3,1981.9,890.3,2023.5,897.5,2070.7,905.7,2109.4,920.4,2154.7,937.5,2180,960.7,2209.3,987.5,2209.3,1020.4,2209.3,1052.7,2180.1,1075.8,2156.1,1094.9,2113.3,1106.9,2080.6,1116.1,2040,1120.4,2012.2,1123.4,1991.1,1123.4,1973,1123.4,1941.6,1119.2,1900.9,1113.6,1867.1,1104,1823.8,1091.5,1799.5,1074.2,1770.2,1053.2,1770.9,1026.2,1771.9,983.4,1815.2,958.7,1860,933.2,1946.6,929.7]}},1715).wait(1).to({x:87.15,y:1408.8},0).to({guide:{path:[87.2,1408.8,88.9,1403,91,1396.2,104.7,1352.3,127.7,1304.8,201.3,1152.8,340.1,1021.1,504.9,864.7,744,756.6]}},182).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(11.7,463.1,3475,1464.3000000000002);
+
+
+(lib.particle3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// 椭圆_16
+	this.instance = new lib.椭圆16_1();
+	this.instance.setTransform(149.6,615.8,1,1,0,0,0,2.5,2.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:77.5,y:379.45},49).to({x:2.5,y:-25.85,alpha:0},51).wait(1));
+
+	// 椭圆_14
+	this.instance_1 = new lib.椭圆14_1();
+	this.instance_1.setTransform(149.6,615.8,1,1,0,0,0,3,3);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:137.55,y:315.5},49).to({x:125,y:-156.35,alpha:0},51).wait(1));
+
+	// 椭圆_12
+	this.instance_2 = new lib.椭圆12_1();
+	this.instance_2.setTransform(149.6,615.8,1,1,0,0,0,11.5,11.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:221.1,y:429.45},49).to({x:295.5,y:76.15,alpha:0},51).wait(1));
+
+	// 椭圆_8
+	this.instance_3 = new lib.椭圆8_1();
+	this.instance_3.setTransform(149.6,615.8,1,1,0,0,0,2.5,2.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({x:122.1,y:492.15},49).to({x:93.5,y:204.15,alpha:0},51).wait(1));
+
+	// 椭圆_3
+	this.instance_4 = new lib.椭圆3_1();
+	this.instance_4.setTransform(149.6,615.8,1,1,0,0,0,2,2);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:187.55,y:554.65},49).to({x:227,y:331.65,alpha:0},51).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,-159.3,307,786.5999999999999);
+
+
+(lib.particle2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// 椭圆_15
+	this.instance = new lib.椭圆15_1();
+	this.instance.setTransform(163,663,1,1,0,0,0,2,2);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:2},76).to({y:-176.8,alpha:0},74).wait(1));
+
+	// 椭圆_13
+	this.instance_1 = new lib.椭圆13_1();
+	this.instance_1.setTransform(233.5,663.5,1,1,0,0,0,1.5,1.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({y:158.5},76).to({y:-20.3,alpha:0},74).wait(1));
+
+	// 椭圆_4
+	this.instance_2 = new lib.椭圆4_1();
+	this.instance_2.setTransform(2,663,1,1,0,0,0,2,2);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({y:478},76).to({y:299.2,alpha:0},74).wait(1));
+
+	// 椭圆_2
+	this.instance_3 = new lib.椭圆2_1();
+	this.instance_3.setTransform(15.5,660.5,1,1,0,0,0,4.5,4.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(76).to({y:481.7,alpha:0},74).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,-178.8,235,843.8);
+
+
+(lib.particle1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// 椭圆_11
+	this.instance = new lib.椭圆11_1();
+	this.instance.setTransform(217.5,456.1,1,1,0,0,0,1.5,1.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:21.5},89).to({y:-223.35},91).wait(1));
+
+	// 椭圆_10
+	this.instance_1 = new lib.椭圆10_1();
+	this.instance_1.setTransform(118.5,456.1,1,1,0,0,0,1.5,1.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({y:1.5},89).to({y:-243.35},91).wait(1));
+
+	// 椭圆_9
+	this.instance_2 = new lib.椭圆9_1();
+	this.instance_2.setTransform(2.5,455.1,1,1,0,0,0,2.5,2.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({y:78.5},89).to({y:-166.35},91).wait(1));
+
+	// 椭圆_7
+	this.instance_3 = new lib.椭圆7_1();
+	this.instance_3.setTransform(237.5,455.1,1,1,0,0,0,2.5,2.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({y:246.5},89).to({y:1.65},91).wait(1));
+
+	// 椭圆_6
+	this.instance_4 = new lib.椭圆6_1();
+	this.instance_4.setTransform(322.5,453.1,1,1,0,0,0,4.5,4.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({y:212.5},89).to({y:-32.35},91).wait(1));
+
+	// 椭圆_5
+	this.instance_5 = new lib.椭圆5_1();
+	this.instance_5.setTransform(58,455.6,1,1,0,0,0,2,2);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({y:304},89).to({y:59.15},91).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,-244.8,327,702.4000000000001);
+
+
+(lib.center1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// 椭圆_1_拷贝_2
+	this.instance = new lib.椭圆1拷贝2_1();
+	this.instance.setTransform(-121.5,932.5,1,1,0,0,0,-220.5,220.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// 椭圆_1_拷贝
+	this.instance_1 = new lib.椭圆1拷贝_1();
+	this.instance_1.setTransform(290.5,503,1,1,0,0,0,290.5,503);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+	// 椭圆_1
+	this.instance_2 = new lib.椭圆1_1();
+	this.instance_2.setTransform(290.5,875,1,1,0,0,0,275.5,194);
+	this.instance_2.alpha = 0.6016;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+
+	// 椭圆_1_拷贝_10
+	this.instance_3 = new lib.椭圆1拷贝10_1();
+	this.instance_3.setTransform(302.5,950,1,1,0,0,0,210.5,154);
+	this.instance_3.alpha = 0.3984;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
+
+	// 椭圆_1_拷贝_11
+	this.instance_4 = new lib.椭圆1拷贝11_1();
+	this.instance_4.setTransform(290.5,995.5,1,1,0,0,0,135.5,119.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.center1, new cjs.Rectangle(-1699,-69,3155,2003), null);
+
+
+(lib.Symbol1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.center1();
+	this.instance.setTransform(-121.5,932.5,1,1,0,0,0,-121.5,932.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:914.1},29).to({y:932.5},30).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-1699,-87.4,3155,2021.4);
+
+
+(lib.组2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// cricle1
+	this.instance = new lib.cricle1_1();
+	this.instance.setTransform(308.5,88.5,1,1,0,0,0,232.5,88.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:116.1},89).to({y:88.5},90).wait(1));
+
+	// cricle2
+	this.instance_1 = new lib.cricle2_1();
+	this.instance_1.setTransform(308.5,181.5,1,1,0,0,0,308.5,117.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({y:153.9},89).to({y:181.5},90).wait(1));
+
+	// center_ball
+	this.instance_2 = new lib.center_ball_1();
+	this.instance_2.setTransform(330.5,185,1,1,0,0,0,158.5,147);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({y:148.2},89).to({y:185},90).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,617,332);
+
+
+(lib.数据平台4数据来源psd = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// particle3
+	this.instance = new lib.particle3();
+	this.instance.setTransform(1993.5,494.5,1,1,0,0,0,153.5,246.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// particle2
+	this.instance_1 = new lib.particle2();
+	this.instance_1.setTransform(2024.5,537.5,1,1,0,0,0,117.5,332.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+	// particle1
+	this.instance_2 = new lib.particle1();
+	this.instance_2.setTransform(1981.5,581,1,1,0,0,0,163.5,153);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+
+	// 组_2
+	this.instance_3 = new lib.组2();
+	this.instance_3.setTransform(1989.5,772.5,1,1,0,0,0,308.5,167.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
+
+	// center1
+	this.instance_4 = new lib.Symbol1();
+	this.instance_4.setTransform(1577.5,1001.5,1,1,0,0,0,-121.5,932.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
+
+	// 组_1
+	this.instance_5 = new lib.组1();
+	this.instance_5.setTransform(1359,907.5,1,1,0,0,0,1359,907.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
+
+	// 图层_11
+	this.instance_6 = new lib.图层11_1();
+	this.instance_6.setTransform(1608.5,1194.5,1,1,0,0,0,1546.5,657.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
+
+	// 图层_10
+	this.instance_7 = new lib.图层10_1();
+	this.instance_7.setTransform(1577.5,1001.5,1,1,0,0,0,1577.5,1001.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,3155,2003);
+
+
+// stage content:
+(lib.ecosystem = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.数据平台4数据来源psd();
+	this.instance.setTransform(665.9,423.8,0.4222,0.4231,0,0,0,1577.3,1001.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new lib.AnMovieClip();
+p.nominalBounds = new cjs.Rectangle(665.9,424,666.1,423.6);
+// library properties:
+lib.properties = {
+	id: '02084F7C4CD24BC38EDCCD6892CE74CF',
+	width: 1332,
+	height: 848,
+	fps: 30,
+	color: "#FFFFFF",
+	opacity: 1.00,
+	manifest: [
+		{src:"./public/animate/home/images/图层10.png?1635672462393", id:"图层10"},
+		{src:"./public/animate/home/images/图层11.png?1635672462393", id:"图层11"},
+		{src:"./public/animate/home/images/椭圆1拷贝2.png?1635672462393", id:"椭圆1拷贝2"},
+		{src:"./public/animate/home/images/ecosystem_atlas_1.png?1635672462276", id:"ecosystem_atlas_1"}
+	],
+	preloads: []
+};
+
+
+
+// bootstrap callback support:
+
+(lib.Stage = function(canvas) {
+	createjs.Stage.call(this, canvas);
+}).prototype = p = new createjs.Stage();
+
+p.setAutoPlay = function(autoPlay) {
+	this.tickEnabled = autoPlay;
+}
+p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
+p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
+p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
+p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+
+p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+
+an.bootcompsLoaded = an.bootcompsLoaded || [];
+if(!an.bootstrapListeners) {
+	an.bootstrapListeners=[];
+}
+
+an.bootstrapCallback=function(fnCallback) {
+	an.bootstrapListeners.push(fnCallback);
+	if(an.bootcompsLoaded.length > 0) {
+		for(var i=0; i<an.bootcompsLoaded.length; ++i) {
+			fnCallback(an.bootcompsLoaded[i]);
+		}
+	}
+};
+
+an.compositions = an.compositions || {};
+an.compositions['02084F7C4CD24BC38EDCCD6892CE74CF'] = {
+	getStage: function() { return exportRoot.stage; },
+	getLibrary: function() { return lib; },
+	getSpriteSheet: function() { return ss; },
+	getImages: function() { return img; }
+};
+
+an.compositionLoaded = function(id) {
+	an.bootcompsLoaded.push(id);
+	for(var j=0; j<an.bootstrapListeners.length; j++) {
+		an.bootstrapListeners[j](id);
+	}
+}
+
+an.getComposition = function(id) {
+	return an.compositions[id];
+}
+
+
+an.makeResponsive = function(isResp, respDim, isScale, scaleType, domContainers) {		
+	var lastW, lastH, lastS=1;		
+	window.addEventListener('resize', resizeCanvas);		
+	window.resizeCanvas = resizeCanvas;
+	resizeCanvas();		
+	function resizeCanvas() {			
+		var w = lib.properties.width, h = lib.properties.height;			
+		var iw = window.innerWidth, ih=window.innerHeight;			
+		var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+		if(isResp) {                
+			if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+				sRatio = lastS;                
+			}				
+			else if(!isScale) {					
+				if(iw<w || ih<h)						
+					sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==1) {					
+				sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==2) {					
+				sRatio = Math.max(xRatio, yRatio);				
+			}			
+		}
+
+
+		sRatio = xRatio>1 ? 1 : xRatio;
+
+
+		domContainers[0].width = w * pRatio * sRatio;			
+		domContainers[0].height = h * pRatio * sRatio;
+		domContainers.forEach(function(container) {				
+			container.style.width = w * sRatio + 'px';				
+			container.style.height = h * sRatio + 'px';			
+		});
+		stage.scaleX = pRatio*sRatio;			
+		stage.scaleY = pRatio*sRatio;
+		lastW = iw; lastH = ih; lastS = sRatio;            
+		stage.tickOnUpdate = false;            
+		stage.update();            
+		stage.tickOnUpdate = true;		
+	}
+}
+an.handleSoundStreamOnTick = function(event) {
+	if(!event.paused){
+		var stageChild = stage.getChildAt(0);
+		if(!stageChild.paused || stageChild.ignorePause){
+			stageChild.syncStreamSounds();
+		}
+	}
+}
+an.handleFilterCache = function(event) {
+	if(!event.paused){
+		var target = event.target;
+		if(target){
+			if(target.filterCacheList){
+				for(var index = 0; index < target.filterCacheList.length ; index++){
+					var cacheInst = target.filterCacheList[index];
+					if((cacheInst.startFrame <= target.currentFrame) && (target.currentFrame <= cacheInst.endFrame)){
+						cacheInst.instance.cache(cacheInst.x, cacheInst.y, cacheInst.w, cacheInst.h);
+					}
+				}
+			}
+		}
+	}
+}
+
+
+})(createjs = createjs||{}, AdobeAn = AdobeAn||{});
+var createjs, AdobeAn;
+
+
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("mainAnimateCanvas");
+	anim_container = document.getElementById("mainAnimateContainer");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("02084F7C4CD24BC38EDCCD6892CE74CF");
+	var lib=comp.getLibrary();
+	createjs.MotionGuidePlugin.install();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.ecosystem();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+
+init();
