@@ -13491,7 +13491,7 @@ input[type=color].form-control:disabled {
        <li><a href="javascript:void(0);" class=""><b>Community</b></a></li>
        <button class="navbtn btn1">Metaverse Solomon lslands</button>
       </ul>
-      <button class="navbtn btn2" onclick="show(1)">Connect wallet</button>
+      <button class="navbtn btn2" onclick="show(1)" id="Connectwallet">Connect wallet</button>
      </div>
     </nav>
    </header>
@@ -13614,7 +13614,7 @@ input[type=color].form-control:disabled {
        </div>
        <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2 col-6">
         <ul>
-         <strong> <a href="javascript:void(0);">Q and A</a> </strong>
+         <strong> <a href="javascript:void(0);">Q & A</a> </strong>
         <!--  <a href="https://www.mannheim.world/About" class="">About</a>
          <a href="https://www.mannheim.world/Roadmap" class="">Roadmap</a>
          <a href="https://www.mannheim.world/Community" class="">Community</a> -->
@@ -13717,14 +13717,105 @@ input[type=color].form-control:disabled {
     </div>
    </div>
   </div>
-   <script type="text/javascript">
+    <script>
+
+      
+
+    
+      function check(){
+        console.log("sss")
+
+        const isMetaMaskIntalled = ()=>{
+          console.log("isMetaMaskIntalled");
+        const { ethereum } = window;
+          if (typeof ethereum === 'undefined') {
+            return false;
+          }
+          return Boolean(ethereum && ethereum.isMetaMask);
+        }
+
+        const getAccount = async () =>{
+          try{
+            const accounts = await ethereum.request({method:'eth_requestAccounts'});
+            //accountSpan.innerHTML = accounts; 
+            var data = {
+                  value: accounts
+              }
+              sessionStorage["MetaMask"] = JSON.stringify(data)
+               var button =  document.getElementById("Connectwallet");
+          //button.onclick = null;
+          button.innerHTML = accounts;
+
+          show(2);
+          }catch(error){
+            console.error(error);
+          }
+        }
+        const getNetworkdAndChainId = async () =>{
+          try{
+            const chainidSpan = await ethereum.request({method:'eth_chainId'});
+            //chainidSpan.innerHTML = chainidSpan; 
+            const networkSpan = await ethereum.request({method:'net_version'});
+            //networkSpan.innerHTML = networkSpan; 
+            console.log(networkSpan);
+            console.log(chainidSpan);
+            var chainidSpandata = {
+                  value: chainidSpan
+              }
+              sessionStorage["MetaMaskchainid"] = JSON.stringify(chainidSpandata)
+              var networkdata = {
+                  value: networkSpan
+              }
+              sessionStorage["MetaMasknetwork"] = JSON.stringify(networkdata)
+          }catch{
+          console.error(error);
+          }
+        } 
+        const checkMetaMaskClient = async () =>{
+          console.log("checkMetaMaskClient");
+          if (!isMetaMaskIntalled()) {
+            alert("please install metamask");
+          }else{
+            getNetworkdAndChainId();
+            getAccount();
+          }
+        }
+        checkMetaMaskClient();
+      
+      
+
+      }
+  
+      
+    </script>
+  <script type="text/javascript">
+     window.onload=function(){ 
+       var data = sessionStorage['MetaMask'];
+       console.log("data "+ data)
+       //判断session 里有无钱包地址
+        if (data == "undefined" || !data || data === "null") {
+            //无
+            console.log("not")
+            return ;
+            //checkMetaMaskClient();
+        }
+        //return JSON.parse(data).value;
+
+       //var seesionMetaMask = @_session.get('MetaMask');
+       var MetaMaskaddress =  JSON.parse(data).value;
+       console.log("seesionMetaMask" + MetaMaskaddress);
+       var button =  document.getElementById("Connectwallet");
+     // button.onclick = null;
+      button.innerHTML = MetaMaskaddress;
+        //document.getElementById("Connectwallet").text("ssss")
+    };
     function show(object){
        var s = document.getElementById("modaBJ");
       if (object==1) {
         s.style.display="block";
       } 
       if (object== 2) {
-        console.log("sss")
+        
         s.style.display="none";
       }
     }
