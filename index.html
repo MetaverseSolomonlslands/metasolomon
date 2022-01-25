@@ -13395,9 +13395,9 @@ input[type=color].form-control:disabled {
               }
               sessionStorage["MetaMask"] = JSON.stringify(data)
                var button =  document.getElementById("Connectwallet");
-          button.onclick = null;
+          //button.onclick = null;
           button.innerHTML = accounts;
-          
+
           show(2);
           }catch(error){
             console.error(error);
@@ -13457,7 +13457,7 @@ input[type=color].form-control:disabled {
        var MetaMaskaddress =  JSON.parse(data).value;
        console.log("seesionMetaMask" + MetaMaskaddress);
        var button =  document.getElementById("Connectwallet");
-      button.onclick = null;
+     // button.onclick = null;
       button.innerHTML = MetaMaskaddress;
         //document.getElementById("Connectwallet").text("ssss")
     };
