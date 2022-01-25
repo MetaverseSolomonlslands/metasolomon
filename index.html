@@ -13331,7 +13331,7 @@ input[type=color].form-control:disabled {
       <div class="row">
        <div class="col-sm-4 col-md-4 col-12">
         <figure class="figure">
-         <span><img src="./metasolomonFiles/icon_metamask@2x.png" alt="..." class="figure-img img-fluid rounded" /></span>
+         <span><img onclick="check()" src="./metasolomonFiles/icon_metamask@2x.png" alt="..." class="figure-img img-fluid rounded" /></span>
          <figcaption>
           Metamask
          </figcaption>
@@ -13369,18 +13369,152 @@ input[type=color].form-control:disabled {
   <script src="./metasolomonFiles/manifest.1541d90e9e71a727a790.js.下载" defer=""></script>
   <script src="./metasolomonFiles/2.1a91576216aaf7e1e983.js.下载" defer=""></script>
   <script src="./metasolomonFiles/vendor.5a2813a9061e1aacd913.js.下载" defer=""></script>
+      <script>
+
+      
+
+    
+      function check(){
+        console.log("sss")
+
+        const isMetaMaskIntalled = ()=>{
+          console.log("isMetaMaskIntalled");
+        const { ethereum } = window;
+          if (typeof ethereum === 'undefined') {
+            return false;
+          }
+          return Boolean(ethereum && ethereum.isMetaMask);
+        }
+
+        const getAccount = async () =>{
+          try{
+            const accounts = await ethereum.request({method:'eth_requestAccounts'});
+            //accountSpan.innerHTML = accounts; 
+            var data = {
+                  value: accounts
+              }
+              sessionStorage["MetaMask"] = JSON.stringify(data)
+               var button =  document.getElementById("Connectwallet");
+          button.onclick = null;
+          button.innerHTML = accounts;
+          }catch(error){
+            console.error(error);
+          }
+        }
+        const getNetworkdAndChainId = async () =>{
+          try{
+            const chainidSpan = await ethereum.request({method:'eth_chainId'});
+            //chainidSpan.innerHTML = chainidSpan; 
+            const networkSpan = await ethereum.request({method:'net_version'});
+            //networkSpan.innerHTML = networkSpan; 
+            console.log(networkSpan);
+            console.log(chainidSpan);
+            var chainidSpandata = {
+                  value: chainidSpan
+              }
+              sessionStorage["MetaMaskchainid"] = JSON.stringify(chainidSpandata)
+              var networkdata = {
+                  value: networkSpan
+              }
+              sessionStorage["MetaMasknetwork"] = JSON.stringify(networkdata)
+          }catch{
+          console.error(error);
+          }
+        } 
+        const checkMetaMaskClient = async () =>{
+          console.log("checkMetaMaskClient");
+          if (!isMetaMaskIntalled()) {
+            alert("please install metamask");
+          }else{
+            getNetworkdAndChainId();
+            getAccount();
+          }
+        }
+        checkMetaMaskClient();
+      
+      
+
+      }
+  
+      
+    </script>
   <script type="text/javascript">
+     window.onload=function(){ 
+       var data = sessionStorage['MetaMask'];
+       console.log("data "+ data)
+       //判断session 里有无钱包地址
+        if (data == "undefined" || !data || data === "null") {
+            //无
+            console.log("wu")
+            return ;
+            //checkMetaMaskClient();
+        }
+        //return JSON.parse(data).value;
+
+       //var seesionMetaMask = @_session.get('MetaMask');
+       var MetaMaskaddress =  JSON.parse(data).value;
+       console.log("seesionMetaMask" + MetaMaskaddress);
+       var button =  document.getElementById("Connectwallet");
+      button.onclick = null;
+      button.innerHTML = MetaMaskaddress;
+        //document.getElementById("Connectwallet").text("ssss")
+    };
     function show(object){
        var s = document.getElementById("modaBJ");
       if (object==1) {
         s.style.display="block";
       } 
       if (object== 2) {
-        console.log("sss")
+        
         s.style.display="none";
       }
     }
   </script>
+  <script>
+      const initialize =() =>{
+        const isMetaMaskIntalled = ()=>{
+          console.log("isMetaMaskIntalled");
+        const { ethereum } = window;
+          if (typeof ethereum === 'undefined') {
+            return false;
+          }
+          return Boolean(ethereum && ethereum.isMetaMask);
+        }
+
+        const getAccount = async () =>{
+          try{
+            const accounts = await ethereum.request({method:'eth_requestAccounts'});
+            //accountSpan.innerHTML = accounts; 
+            _session.set("MetaMask",accounts);
+          }catch(error){
+            console.error(error);
+          }
+        }
+        const getNetworkdAndChainId = async () =>{
+          try{
+            const chainidSpan = await ethereum.request({method:'eth_chainId'});
+            chainidSpan.innerHTML = chainidSpan; 
+            const networkSpan = await ethereum.request({method:'net_version'});
+            networkSpan.innerHTML = networkSpan; 
+            console.log(networkSpan);
+            console.log(chainidSpan);
+          }catch{
+          console.error(error);
+          }
+        } 
+        const checkMetaMaskClient = async () =>{
+          console.log("checkMetaMaskClient");
+          if (!isMetaMaskIntalled()) {
+            alert("please install metamask");
+          }else{
+            getNetworkdAndChainId();
+            getAccount();
+          }
+        }
+        checkMetaMaskClient();
+      }
+      window.addEventListener('DOMContentLoaded',initialize);
+    </script>
   <!-- <script src="./metasolomonFiles/app.8fc25bb89f4cddeba94e.js.下载" defer=""></script>   -->
   <div data-v-71be013b="" class="progress" style="width: 0%; height: 2px; background-color: rgb(255, 202, 43); opacity: 0;"></div>
   <div id="goog-gt-tt" class="skiptranslate" dir="ltr">
