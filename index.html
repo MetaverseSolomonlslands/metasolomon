@@ -13470,51 +13470,6 @@ input[type=color].form-control:disabled {
       }
     }
   </script>
-  <script>
-      const initialize =() =>{
-        const isMetaMaskIntalled = ()=>{
-          console.log("isMetaMaskIntalled");
-        const { ethereum } = window;
-          if (typeof ethereum === 'undefined') {
-            return false;
-          }
-          return Boolean(ethereum && ethereum.isMetaMask);
-        }
-
-        const getAccount = async () =>{
-          try{
-            const accounts = await ethereum.request({method:'eth_requestAccounts'});
-            //accountSpan.innerHTML = accounts; 
-            _session.set("MetaMask",accounts);
-          }catch(error){
-            console.error(error);
-          }
-        }
-        const getNetworkdAndChainId = async () =>{
-          try{
-            const chainidSpan = await ethereum.request({method:'eth_chainId'});
-            chainidSpan.innerHTML = chainidSpan; 
-            const networkSpan = await ethereum.request({method:'net_version'});
-            networkSpan.innerHTML = networkSpan; 
-            console.log(networkSpan);
-            console.log(chainidSpan);
-          }catch{
-          console.error(error);
-          }
-        } 
-        const checkMetaMaskClient = async () =>{
-          console.log("checkMetaMaskClient");
-          if (!isMetaMaskIntalled()) {
-            alert("please install metamask");
-          }else{
-            getNetworkdAndChainId();
-            getAccount();
-          }
-        }
-        checkMetaMaskClient();
-      }
-      window.addEventListener('DOMContentLoaded',initialize);
-    </script>
   <!-- <script src="./metasolomonFiles/app.8fc25bb89f4cddeba94e.js.下载" defer=""></script>   -->
   <div data-v-71be013b="" class="progress" style="width: 0%; height: 2px; background-color: rgb(255, 202, 43); opacity: 0;"></div>
   <div id="goog-gt-tt" class="skiptranslate" dir="ltr">
