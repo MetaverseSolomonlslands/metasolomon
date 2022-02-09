@@ -12,6 +12,8 @@
   <link rel="shortcut icon" sizes="48x48" href="./metasolomonFiles/48ca16f2d5b92ed0725b10f5d48f658.png" /> 
   <meta name="theme-color" content="#f60" />  
   <meta name="renderer" content="webkit" /> 
+  <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.7.1/dist/umd/index.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
   <style>
       #skip a {  position:absolute;  left:-10000px;  top:auto;  width:1px;  height:1px;  overflow:hidden;  }
       #skip a:focus {  position:static;  width:auto;  height:auto;  }
@@ -13171,7 +13173,7 @@ input[type=color].form-control:disabled {
        </div>
        <div class="col-sm-4 col-md-4 col-12">
         <figure class="figure">
-         <span><img src="./metasolomonFiles/icon_trust@2x.png" alt="..." class="figure-img img-fluid rounded" /></span>
+         <span><img onclick="connectWC()" src="./metasolomonFiles/icon_trust@2x.png" alt="..." class="figure-img img-fluid rounded" /></span>
          <figcaption>
           Trust Wallet
          </figcaption>
@@ -13292,6 +13294,70 @@ input[type=color].form-control:disabled {
         s.style.display="none";
       }
     }
+  </script>
+   <script type="text/javascript">
+    var account;
+
+    // https://docs.walletconnect.com/quick-start/dapps/web3-provider
+    var provider = new WalletConnectProvider.default({
+      rpc: {
+        1: "https://cloudflare-eth.com/", // https://ethereumnodes.com/
+        137: "https://polygon-rpc.com/", // https://docs.polygon.technology/docs/develop/network-details/network/
+        // ...
+
+      },
+      // bridge: 'https://bridge.walletconnect.org',
+    });
+
+    var connectWC = async () => {
+      await provider.enable();
+
+      //  Create Web3 instance
+      const web3 = new Web3(provider);
+      window.w3 = web3
+
+      var accounts  = await web3.eth.getAccounts(); // get all connected accounts
+      account = accounts[0]; // get the primary account
+      console.log("account "+account)
+        //accountSpan.innerHTML = accounts; 
+            var data = {
+                  value: accounts
+              }
+              sessionStorage["MetaMask"] = JSON.stringify(data)
+               var button =  document.getElementById("Connectwallet");
+          //button.onclick = null;
+          button.innerHTML = accounts;
+
+          show(2);
+    }
+
+
+    var sign = async (msg) => {
+      if (w3) {
+        return await w3.eth.personal.sign(msg, account)
+      } else {
+        return false
+      }
+    }
+
+    var contract = async (abi, address) => {
+      if (w3) {
+        return new w3.eth.Contract(abi, address)
+      } else {
+        return false
+      }
+    }
+
+    var disconnect = async () => {
+      // Close provider session
+      await provider.disconnect()
+    }
+
+
+    var address = "0x4b4f8ca8fb3e66b5ddafcebfe86312cec486dae1"
+    var abi = [{"inputs":[],"name":"count","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"increment","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"nonpayable","type":"function"}]
+
+
   </script>
   <script src="./Domino_files/manifest.d52e7b48d0703c73f8c5.js.下载" defer=""></script>
   <script src="./Domino_files/9.774b2c9c61f196e9d20b.js.下载" defer=""></script>
