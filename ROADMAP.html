@@ -13165,7 +13165,7 @@ input[type=color].form-control:disabled {
        </div>
        <div class="col-sm-4 col-md-4 col-12">
         <figure class="figure">
-         <span><img src="./metasolomonFiles/Binance.png" alt="..." class="figure-img img-fluid rounded" /></span>
+         <span><img onclick="connectWC()" src="./metasolomonFiles/Binance.png" alt="..." class="figure-img img-fluid rounded" /></span>
          <figcaption>
           Binance Wallet
          </figcaption>
@@ -13199,8 +13199,11 @@ input[type=color].form-control:disabled {
     
       function check(){
         console.log("sss")
-
-        const isMetaMaskIntalled = ()=>{
+        var data = sessionStorage['MetaMask'];
+        console.log("data "+ data)
+       //判断session 里有无钱包地址
+       if (data == "undefined" || !data || data === "null") {
+           const isMetaMaskIntalled = ()=>{
           console.log("isMetaMaskIntalled");
         const { ethereum } = window;
           if (typeof ethereum === 'undefined') {
@@ -13256,8 +13259,12 @@ input[type=color].form-control:disabled {
           }
         }
         checkMetaMaskClient();
-      
-      
+          
+        }else{
+           alert("请先断开其他链接并关闭页面重新打开");
+            return ;
+            //checkMetaMaskClient();
+        }
 
       }
   
@@ -13350,7 +13357,7 @@ input[type=color].form-control:disabled {
 
     var disconnect = async () => {
       // Close provider session
-      await provider.disconnect()
+      await provider.disconnect() 
     }
 
 
